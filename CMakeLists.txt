@@ -7,7 +7,7 @@ include(FetchContent)
 # Fetch the Golioth SDK with all submodules
 FetchContent_Declare(
     golioth_sdk
-    GIT_REPOSITORY https://github.com/golioth/golioth-firmware-sdk.git
+    GIT_REPOSITORY https://github.com/beriberikix/golioth-firmware-sdk.git
     GIT_TAG main # Or a specific tag/commit if required
     GIT_SHALLOW FALSE
 )
